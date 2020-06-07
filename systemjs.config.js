@@ -11,6 +11,7 @@ System.config({
   },
   paths: {
     'npm:': 'https://unpkg.com/',
+    'packages:': './packages/',
   },
   map: {
     // ts is required to be able to use tsconfig: true in typescriptOptions
@@ -19,11 +20,21 @@ System.config({
     'typescript': 'npm:typescript@2.4.2/lib/typescript.js',
 
 
+    // 'object-assign':'packages:object-assign/index.js',
+    // 'prop-types/checkPropTypes':'packages:prop-types/checkPropTypes.js',
 
+    // 'prop-types/lib/ReactPropTypesSecret':'packages:prop-types/lib/ReactPropTypesSecret.js',
+    // 'prop-types/lib/has':'packages:prop-types/lib/has.js',
+
+    
+    // 'react': 'packages:react/cjs/react.development.js',
+    // 'react-dom': 'npm:react-dom@15.6.2/dist/react-dom.js',
 
     'react': 'npm:react@15.6.2/dist/react.js',
     'react-dom': 'npm:react-dom@15.6.2/dist/react-dom.js',
-    'lodash': 'npm:lodash@4.17.10/index.js',
+
+    'lodash': 'packages:lodash/lodash.js',
+    'moment': 'packages:moment/moment.js',
     'app': './src',
   },
   packages: {

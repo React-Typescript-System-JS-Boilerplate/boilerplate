@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as _ from "lodash";
 import * as moment from "moment";
-import { BaseWidget, BaseWidgetProps } from "../../common/BaseWidget";
+import { BaseWidget, BaseWidgetProps } from "../common/BaseWidget.tsx";
 
 
 const inputClasses = {

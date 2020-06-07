@@ -1,4 +1,7 @@
 import * as React from 'react';
+import _ from 'lodash';
+import { EposDetailsTextInputElement } from './EposDetailsTextInputElement.tsx';
+console.log(_);
 
 
 
@@ -12,9 +15,10 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        Hello world
+        No Hello 
+        <EposDetailsTextInputElement label="Name" type="text"/>
       </div>
-    );
+    );  
   }
   
   
