@@ -2,6 +2,7 @@ import * as React from 'react';
 import { filter } from 'lodash';
 import { EposDetailsTextInputElement } from './EposDetailsTextInputElement';
 console.log(filter);
+// import '../scss/main.scss';
 
 
 
@@ -14,9 +15,8 @@ export class App extends React.Component {
   
   render() {
     return (
-      <div>
-        No Hello 
-        <EposDetailsTextInputElement label="Name" type="text"/>
+      <div className="hello">
+        oye
       </div>
     );  
   }

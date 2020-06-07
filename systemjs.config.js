@@ -8,10 +8,9 @@ System.config({
   meta: {
     typescript: {
       exports: 'ts',
-    },
+    }
   },
   paths: {
-    'npm:': 'https://unpkg.com/',
     'packages:': './packages/',
   },
   map: {
@@ -38,7 +37,7 @@ System.config({
       defaultExtension: false,
     },
     src:{
-      defaultExtension:'tsx'
+      defaultExtension:'tsx' 
     }
   },
 });
