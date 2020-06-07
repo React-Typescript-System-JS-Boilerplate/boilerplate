@@ -1,7 +1,7 @@
 import * as React from 'react';
-import _ from 'lodash';
+import { filter } from 'lodash';
 import { EposDetailsTextInputElement } from './EposDetailsTextInputElement';
-console.log(_);
+console.log(filter);
 
 
 
