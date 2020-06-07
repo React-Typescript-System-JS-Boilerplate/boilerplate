@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      "lodash@4.17.15",
+      "D:\\SecondFloor\\Axa-Malaysia\\cl-boot-ui"
+    ]
+  ],
+  "_from": "lodash@4.17.15",
+  "_id": "lodash@4.17.15",
+  "_inBundle": false,
+  "_integrity": "sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==",
+  "_location": "/lodash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "lodash@4.17.15",
+    "name": "lodash",
+    "escapedName": "lodash",
+    "rawSpec": "4.17.15",
+    "saveSpec": null,
+    "fetchSpec": "4.17.15"
+  },
+  "_requiredBy": [
+    "/",
+    "/@babel/cli",
+    "/@babel/core",
+    "/@babel/generator",
+    "/@babel/helper-define-map",
+    "/@babel/helper-module-transforms",
+    "/@babel/helper-regex",
+    "/@babel/plugin-transform-block-scoping",
+    "/@babel/register",
+    "/@babel/traverse",
+    "/@babel/types",
+    "/@mdx-js/loader/@babel/core",
+    "/@mdx-js/mdx/@babel/core",
+    "/@storybook/addon-docs",
+    "/@storybook/addon-events",
+    "/@storybook/addon-knobs",
+    "/@storybook/api",
+    "/@storybook/client-api",
+    "/@storybook/codemod",
+    "/@storybook/components",
+    "/@storybook/csf",
+    "/@storybook/react",
+    "/@storybook/router",
+    "/@storybook/ui",
+    "/async",
+    "/awesome-typescript-loader",
+    "/babel-core",
+    "/babel-generator",
+    "/babel-plugin-minify-dead-code-elimination",
+    "/babel-plugin-react-docgen",
+    "/babel-plugin-styled-components",
+    "/babel-preset-minify",
+    "/babel-register",
+    "/babel-template",
+    "/babel-traverse",
+    "/babel-types",
+    "/cheerio",
+    "/cucumber",
+    "/globule",
+    "/graphql-config",
+    "/graphql-import",
+    "/html-webpack-plugin",
+    "/inquirer",
+    "/jest-image-snapshot",
+    "/karma",
+    "/karma-coverage",
+    "/node-sass",
+    "/react-color",
+    "/react-dev-utils/inquirer",
+    "/reactcss",
+    "/remark-mdx/@babel/core",
+    "/request-promise-core",
+    "/sass-graph",
+    "/storyboard-altdocs",
+    "/storybook-readme",
+    "/streamroller",
+    "/telejson",
+    "/ts-jest",
+    "/yargs-unparser"
+  ],
+  "_resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz",
+  "_spec": "4.17.15",
+  "_where": "D:\\SecondFloor\\Axa-Malaysia\\cl-boot-ui",
+  "author": {
+    "name": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lodash/lodash/issues"
+  },
+  "contributors": [
+    {
+      "name": "John-David Dalton",
+      "email": "john.david.dalton@gmail.com"
+    },
+    {
+      "name": "Mathias Bynens",
+      "email": "mathias@qiwi.be"
+    }
+  ],
+  "description": "Lodash modular utilities.",
+  "homepage": "https://lodash.com/",
+  "icon": "https://lodash.com/icon.svg",
+  "keywords": [
+    "modules",
+    "stdlib",
+    "util"
+  ],
+  "license": "MIT",
+  "main": "lodash.js",
+  "name": "lodash",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lodash/lodash.git"
+  },
+  "scripts": {
+    "test": "echo \"See https://travis-ci.org/lodash-archive/lodash-cli for testing details.\""
+  },
+  "version": "4.17.15"
+}
