@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 
 
 
-import {App} from './components/App.tsx'
+import {App} from './components/App'
 
 ReactDOM.render(
   <App ref={ component => this.reactComponent = component }/>,

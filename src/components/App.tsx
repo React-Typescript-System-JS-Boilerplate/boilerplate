@@ -1,6 +1,6 @@
 import * as React from 'react';
 import _ from 'lodash';
-import { EposDetailsTextInputElement } from './EposDetailsTextInputElement.tsx';
+import { EposDetailsTextInputElement } from './EposDetailsTextInputElement';
 console.log(_);
 
 

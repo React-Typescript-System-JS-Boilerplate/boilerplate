@@ -1,5 +1,6 @@
 System.config({
   transpiler: 'ts',
+  defaultJSExtensions: true,
   typescriptOptions: {
     tsconfig: true,
   },
@@ -15,23 +16,17 @@ System.config({
   },
   map: {
     // ts is required to be able to use tsconfig: true in typescriptOptions
-    'ts': 'npm:plugin-typescript@7.1.0/lib/plugin.js',
+    // 'ts': 'npm:plugin-typescript@7.1.0/lib/plugin.js',
+    'ts': 'packages:plugin-typescript/lib/plugin.js',
     // typescript is required to compile
-    'typescript': 'npm:typescript@2.4.2/lib/typescript.js',
-
-
-    // 'object-assign':'packages:object-assign/index.js',
-    // 'prop-types/checkPropTypes':'packages:prop-types/checkPropTypes.js',
-
-    // 'prop-types/lib/ReactPropTypesSecret':'packages:prop-types/lib/ReactPropTypesSecret.js',
-    // 'prop-types/lib/has':'packages:prop-types/lib/has.js',
-
+    // 'typescript': 'npm:typescript@2.4.2/lib/typescript.js',
+    'typescript': 'packages:typescript/lib/typescript.js',
     
-    // 'react': 'packages:react/cjs/react.development.js',
-    // 'react-dom': 'npm:react-dom@15.6.2/dist/react-dom.js',
+    'react': 'packages:react/umd/react.development.js',
+    'react-dom': 'packages:react-dom/umd/react-dom.development.js',
 
-    'react': 'npm:react@15.6.2/dist/react.js',
-    'react-dom': 'npm:react-dom@15.6.2/dist/react-dom.js',
+    // 'react': 'npm:react@15.6.2/dist/react.js',
+    // 'react-dom': 'npm:react-dom@15.6.2/dist/react-dom.js',
 
     'lodash': 'packages:lodash/lodash.js',
     'moment': 'packages:moment/moment.js',
@@ -42,5 +37,8 @@ System.config({
       main: './main.tsx',
       defaultExtension: false,
     },
+    src:{
+      defaultExtension:'tsx'
+    }
   },
 });

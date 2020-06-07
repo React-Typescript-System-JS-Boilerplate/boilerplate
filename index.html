@@ -3,7 +3,14 @@
 
   <head>
 
-      <script src="https://unpkg.com/systemjs@0.19.29/dist/system.src.js"></script>
+      <script src="./packages/system.src.js"></script>
+      <script type="text/javascript">
+        var process = {
+          env:{
+            NODE_ENV:'development'
+          }
+        }
+      </script>
       
       <script>
     System.import('systemjs.config.js')
